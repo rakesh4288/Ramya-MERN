@@ -112,12 +112,4 @@ app.put("/update-employee", async(req, resp) => {
     }
 });
 
-
-// app.get("/", (req, resp) => {
-//     resp.send({
-//         message: 'Basic API Done',
-//         success: true
-//     });
-// });
-
 app.listen(3200);
